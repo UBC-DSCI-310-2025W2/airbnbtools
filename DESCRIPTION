@@ -1,11 +1,11 @@
 Package: airbnbtools
-Title: Functions For Airbnb Data Analysis And Predictions (One Line, Title Case)
+Title: Functions For Airbnb Data Analysis And Predictions 
 Version: 0.0.0.9000
 Authors@R: 
-    person("Richard", "He", "richalvi15@gmai.com")
-    person("Sean", "Holiday", "sean.holidayca@gmail.com")
-    person("Eddi", "Xie", "eddix808@gmail.com")
-    person("Jialin", "Zhang", "zjl7786821456@gmail.com") 
+    person("Richard", "He", "richalvi15@gmai.com", role = c("aut", "cre"))
+    person("Sean", "Holiday", "sean.holidayca@gmail.com", role = c("aut", "cre"))
+    person("Eddi", "Xie", "eddix808@gmail.com", role = c("aut", "cre"))
+    person("Jialin", "Zhang", "zjl7786821456@gmail.com", role = c("aut", "cre")) 
 Description: A package for Airbnb price predictions. Includes functions for preprocessing raw listing data, splitting datasets, generating exploratory visualizations and calculating model performance metrics.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
