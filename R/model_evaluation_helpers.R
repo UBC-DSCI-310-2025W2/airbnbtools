@@ -41,6 +41,7 @@ calculate_rmse <- function(predicted, actual) {
 #' @param actual A numeric vector of actual (observed) values.
 #'
 #' @return A single numeric value representing R-squared.
+#' @export
 #'
 #' @examples
 #' calculate_r_squared(c(1.1, 1.9, 3.2), c(1, 2, 3))
