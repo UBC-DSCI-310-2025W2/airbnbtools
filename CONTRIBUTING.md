@@ -44,8 +44,8 @@ external contributors.
 4. **At least one teammate must review and approve** your PR before it can
    be merged. Reviewers should check correctness, tests, and documentation.
 5. **CI must be green.** GitHub Actions runs `R CMD check` and the
-   `testthat` suite on every push and pull request. PRs cannot merge until
-   the workflow passes.
+   `testthat` suite on every push and pull request. PRs should not be
+   merged until the workflow passes.
 6. **Use GitHub issues for project communication.** Keep design discussion,
    questions, and decisions on the issue or PR thread so they're visible to
    the whole team — not in private DMs or external chat.
