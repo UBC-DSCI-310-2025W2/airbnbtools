@@ -21,7 +21,10 @@
 #' clean_airbnb_data(raw_airbnb)
 
 clean_airbnb_data <- function(raw_airbnb) {
-  
+
+    # Data validation checks
+    validate_airbnb_data(raw_airbnb)
+    
     # Check if the data input is a dataframe
     if(!is.data.frame(raw_airbnb)) {
       stop("data must be a dataframe")
