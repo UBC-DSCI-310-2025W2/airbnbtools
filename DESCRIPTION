@@ -17,6 +17,7 @@ Suggests:
 Imports: 
     dplyr,
     ggplot2,
+    magrittr,
     rsample,
     stringr,
     tidyr
