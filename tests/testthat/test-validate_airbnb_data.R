@@ -1,6 +1,5 @@
 library(testthat)
 library(airbnbtools)
-source("../../R/validate_airbnb_data.R")
 
 # helper: create a valid dataset for test
 create_valid_df <- function() {
