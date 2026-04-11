@@ -1,10 +1,3 @@
-library(testthat)
-library(dplyr)
-library(readr)
-library(stringr)
-library(tidyr)
-library(docopt)
-
 test_that("`clean_airbnb_data` should throw an error if input is not a data frame", {
   expect_error(clean_airbnb_data("not_a_dataframe"), "data must be a dataframe")
   expect_error(clean_airbnb_data(123), "data must be a dataframe")

@@ -18,6 +18,8 @@ Imports:
     dplyr,
     ggplot2,
     magrittr,
+    readr,
+    rlang,
     rsample,
     stringr,
     tidyr

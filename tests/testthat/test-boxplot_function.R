@@ -1,6 +1,3 @@
-library(testthat)
-library(ggplot2)
-
 # Expected case
 test_that("plot_boxplot returns a ggplot object for valid input", {
     df <- mtcars
