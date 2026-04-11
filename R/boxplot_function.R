@@ -19,7 +19,6 @@
 #' df <- mtcars
 #' df$log_price <- log(df$mpg)
 #' plot_boxplot(df, cyl, "Example Plot")
-#' plot_boxplot(mtcars, cyl, "Example Plot")
 
 plot_boxplot <- function(
     data,
