@@ -16,6 +16,9 @@
 #' @importFrom ggplot2 ggplot aes geom_boxplot labs theme element_text
 #'
 #' @examples
+#' df <- mtcars
+#' df$log_price <- log(df$mpg)
+#' plot_boxplot(df, cyl, "Example Plot")
 #' plot_boxplot(mtcars, cyl, "Example Plot")
 
 plot_boxplot <- function(
