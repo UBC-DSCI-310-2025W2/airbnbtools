@@ -8,12 +8,14 @@
 #'
 #' @return A list containing two data frames: `train` and `test`.
 #' @export
+#' @importFrom magrittr %>%
 #'
 #' @examples
 #' df <- data.frame(id = 1:10, value = rnorm(10))
 #' split <- split_data(df, prop = 0.8)
 #' split$train
 #' split$test
+#' 
 split_data <- function(data, prop = 0.8) {
   
   if (!"id" %in% colnames(data)) {

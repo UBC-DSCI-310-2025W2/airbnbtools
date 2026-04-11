@@ -13,6 +13,7 @@
 #'
 #' @return A ggplot object representing the boxplot
 #' @export
+#' @importFrom ggplot2 ggplot aes geom_boxplot labs theme element_text
 #'
 #' @examples
 #' plot_boxplot(mtcars, cyl, "Example Plot")
