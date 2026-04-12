@@ -23,4 +23,5 @@ df <- data.frame(id = 1:10, value = rnorm(10))
 split <- split_data(df, prop = 0.8)
 split$train
 split$test
+
 }

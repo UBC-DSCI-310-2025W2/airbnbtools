@@ -39,5 +39,7 @@ A ggplot object representing the boxplot
 Generate a boxplot of a categorical variable vs log_price
 }
 \examples{
-plot_boxplot(mtcars, cyl, "Example Plot")
+df <- mtcars
+df$log_price <- log(df$mpg)
+plot_boxplot(df, cyl, "Example Plot")
 }

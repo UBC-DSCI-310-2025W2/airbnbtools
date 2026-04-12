@@ -1,5 +1,3 @@
-library(testthat)
-
 # Tests for model_evaluation_helpers.R
 
 # --- calculate_rmse tests ---

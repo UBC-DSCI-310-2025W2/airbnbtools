@@ -1,6 +1,3 @@
-library(testthat)
-library(dplyr)
-
 test_that("split_data returns a list with two dataframes named 'train' and 'test'", {
   set.seed(310)
   dummy_df <- data.frame(id = 1:10, val = runif(10))

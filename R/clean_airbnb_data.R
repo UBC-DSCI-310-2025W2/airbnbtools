@@ -10,6 +10,10 @@
 #'            - refactored certain char type features to categories
 #' 
 #' @export
+#' @importFrom dplyr select mutate filter count slice_head pull case_when
+#' @importFrom tidyr drop_na
+#' @importFrom stringr str_remove_all
+#' @importFrom magrittr %>%
 #'
 #' @examples
 #' raw_airbnb <- data.frame(id = 1, host_is_superhost = TRUE, 
