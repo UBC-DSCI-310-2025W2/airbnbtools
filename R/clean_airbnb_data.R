@@ -26,13 +26,13 @@
 
 clean_airbnb_data <- function(raw_airbnb) {
 
-    # Data validation checks
-    validate_airbnb_data(raw_airbnb)
-    
     # Check if the data input is a dataframe
     if(!is.data.frame(raw_airbnb)) {
       stop("data must be a dataframe")
     }
+    
+    # Data validation checks
+    validate_airbnb_data(raw_airbnb)
   
     required_cols <- c("id", "host_is_superhost", "neighbourhood_cleansed", 
                         "property_type", "room_type", "accommodates", 
