@@ -1,7 +1,7 @@
 Package: airbnbtools
 Title: Functions For Airbnb Data Analysis And Predictions 
 Version: 0.0.0.9000
-Authors@R: c(person("Richard", "He", email = "richalvi15@gmai.com", role = c("aut", "cre")),
+Authors@R: c(person("Richard", "He", email = "richalvi15@gmail.com", role = c("aut", "cre")),
              person("Sean", "Holiday", email = "sean.holidayca@gmail.com", role = "aut"),
              person("Eddi", "Xie", email = "eddix808@gmail.com", role = "aut"),
              person("Jialin", "Zhang", email = "zjl7786821456@gmail.com", role = "aut"))
