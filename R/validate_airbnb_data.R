@@ -13,10 +13,7 @@ validate_airbnb_data <- function(df) {
     missing_cols <- setdiff(required_cols, colnames(df))
     
     if (length(missing_cols) > 0) {
-        stop(paste(
-            "Missing required columns:",
-            paste(missing_cols, collapse = ", ")
-        ))
+        stop("missing required columns")
     }
 
     # 3. Check dataset is not empty
